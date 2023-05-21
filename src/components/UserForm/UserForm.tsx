@@ -24,7 +24,6 @@ const UserForm:React.FC= ()=> {
         description: " "
     })        
   
-      
          const onChangeHandler=(e:ChangeEvent<HTMLInputElement>)=>{
                const name=e.target.name ;
                const value =e.target.value;
@@ -69,10 +68,9 @@ const UserForm:React.FC= ()=> {
                     <input type="text" className="form-control p-2" id="exampleInputEmail1" name="author"
                       placeholder="Enter email"
                     onChange={onChangeHandler}
-                    value={userInput?.author}
-                    />
-                           
+                    value={userInput?.author} />          
                 </div>
+
                 <div className="form-group m-2">
                     <label htmlFor="exampleInputPassword1" className="mb-2">Title</label>
                     <input type="text" className="form-control  " id="exampleInputPassword1" name="title"
@@ -86,27 +84,25 @@ const UserForm:React.FC= ()=> {
                      value={userInput?.launchdate}
                     onChange={onChangeHandler}/>
                 </div>
+
                 <div className="form-group m-2">
                     <label htmlFor="exampleInputPassword1" className="mb-2">Cover Image</label>
                     <input type="text" className="form-control  " id="exampleInputPassword1" name="image_link"
                     placeholder="Image-Link"  
                     onChange={onChangeHandler} />
                 </div>
+
                 <div className="form-group m-2">
                     <label htmlFor="exampleInputPassword1" className="mb-2">Description</label>
                     <input type="text-area" className="form-control  " id="exampleInputPassword1" name="description"
-                    placeholder="Password"  value={userInput?.description}
+                    placeholder="Description"  value={userInput?.description}
                     onChange={onChangeHandler}/>
                 </div>
-
                   <div className='m-2'>
                   <button  onClick={handleSubmit} className="btn btn-success mt-2 px-4">Submit</button>
                   </div>
             </div>
-
         </div>
     )
 }
-
-
 export default UserForm
