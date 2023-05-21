@@ -1,0 +1,59 @@
+
+
+.Libarary-Table h1{
+    font-size: 38px;
+    font-weight: bold;
+ 
+}
+
+   .Libarary-Table .new-blog-btn{
+    background-color: #8CC928;
+    color:#F3F3F3;
+    border: none;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 6px 24px;
+   }
+   .Libarary-Table th{
+    font-size: 13px;
+    cursor: pointer;
+   }
+
+   .Libarary-Table .date-style{
+    color:  #979FA0;
+    cursor: pointer;
+   }
+
+   .Libarary-Table .title-style{
+    color: #009BE9;
+    font-weight: 400;
+    cursor: pointer;
+   }
+   .Libarary-Table .author-style{
+   font-size: medium;
+   font-weight: 600;
+   cursor: pointer;
+   }
+   .Libarary-Table .img-style{
+    height:45px;
+    width: 45px;
+    cursor: pointer;
+   }
+
+    .main-modal .description{
+    color:rgb(0, 0, 0) !important;
+    font-weight: 500;
+    word-wrap: wrap;
+   }
+   
+    .main-modal .title{
+    color:rgb(0, 0, 0) !important;
+    font-weight: 500;
+    font-size: 18px;
+   }
+   
+    .main-modal .close-btn{
+    
+    font-size: 32px;
+   }
+   
